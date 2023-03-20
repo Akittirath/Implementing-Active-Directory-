@@ -35,7 +35,7 @@ In this lab we will create two VMs in the same VNET. One will be a Domain Contro
 <img src="https://i.imgur.com/d22FHIm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC-1 has to have a static Private IP Address. We need to change DC-1 to static IP instead of Dynamic is because we want the IP address to stay the same at all times. Client one will connect to DC-1 to ensure connectivity we will try to ping DC-1 from Client-1. At first the ping will not work correctly. We have to enable ICMPv4 on the firewall on DC-1. Now we can ping DC-1 successfully from Client-1
+DC-1 has to have a static Private IP Address. We need to change DC-1 to static IP instead of Dynamic is because we want the IP address to stay the same at all times. Client one will connect to DC-1 to ensure connectivity we will try to ping DC-1 from Client-1. We have to enable ICMPv4 on the firewall on DC-1. Now we can ping DC-1 successfully from Client-1 and it will show the IP address.
 </p>
 <br />
 
